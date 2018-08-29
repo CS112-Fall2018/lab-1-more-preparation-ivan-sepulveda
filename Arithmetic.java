@@ -5,8 +5,8 @@ public class Arithmetic{
 	*/
 	int a = 2;
 	int b = 4;
-	float x = 0.5;
-	float y = 0.25;
+	float x = 0.5f;
+	float y = 0.25f;
 	// Addition
 	System.out.println(a+b); // a plus b, b plus a not needed
 	System.out.println(a+x); // a plus x

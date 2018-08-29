@@ -1,0 +1,36 @@
+Lab 1 Worksheet Answers
+
+1. Largest would be 2047, Smallest (most negative) would be -2048
+
+2.
+(i) integer, numberOfPages
+The number of pages in a book will always be a whole, positive number
+
+(ii) Long, numberOfAtoms
+Avogadro's number is 6.022*10^23 and based off the thickness/other properties of a book, it’ll have any factor of that.
+Also, number of atoms is a whole number AKA positive integer (you can’t have a fraction of an atom). Using a long allows us to have an accurate power and also keep using whole numbers.
+
+(iii) Float, lenTriangleSide
+If you wanted to be more accurate, you could use a double. But since we’re using inches, I felt that 7 significant digits was enough
+
+(iv) String, myName
+
+(v) Boolean, isNucleusDecayed 
+
+(vi) Float, probabilityOfDecay
+Like with the triangle, you could use a double if you really wanted that accuracy.
+
+3. Start to do a little java programming! 
+	Follow the example of the Hello.java program and do some testing of Java int and float.
+	Write a short class called “Arithmetic” that in its main method does the following:
+
+		Creates 4 local variables
+			Two ints (call them a and b)
+			Two floats (call them x and y)
+		Performs the following arithmetic operations on every combination of two of these 
+		and output using System.out.println each of the results
+			Addition
+			Division (in both directions)
+
+
+
